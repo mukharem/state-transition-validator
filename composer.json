@@ -1,0 +1,28 @@
+{
+  "name": "mukharem/state-transition-validator",
+  "description": "State transition validator by State Machine",
+  "keywords": ["state machine"],
+  "type": "package",
+  "require": {
+    "php": "^7.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.0"
+  },
+  "license": "MIT",
+  "authors": [{
+    "name": "Mukharem Ismailov",
+    "email": "ismailov.m.h@gmail.com"
+  }],
+  "autoload": {
+    "psr-0": {
+      "": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-0": {
+      "": ["tests/", "examples"]
+    }
+  },
+  "version": "1.0.0"
+}
